@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Emoloyee Registration</title>
+    </head>
+    <body>
+        <h1 align="center">Emoloyee Registration</h1>
+        <center>
+            <form>
+                <fieldset border="1" cellspacing="0" style="width: 20%;">
+                    <table align="center">
+                        <legend>Personal Information</legend>
+                        <tr>
+                            <td>Employee Id</td>
+                            <td>:</td>
+                            <td colspan="2"><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td>Employee Name</td>
+                            <td>:</td>
+                            <td colspan="2"><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td>Email Id</td>
+                            <td>:</td>
+                            <td colspan="2"><input type="email"></td>
+                        </tr>
+                        <tr>
+                            <td>Contact Number</td>
+                            <td>:</td>
+                            <td colspan="2"><input type="text" pattern="[0-9]{10}"></td>
+                        </tr>
+                        <tr>
+                            <td>Maritial Status</td>
+                            <td>:</td>
+                            <td><input type="radio" name="Maritial">Married</td>
+                            <td><input type="radio" name="Maritial">Single</td>
+                        </tr>
+                    </table>
+                </fieldset>
+            </form>
+        </center>
+        <br>
+        <center>
+            <form>
+                <fieldset border="1" cellspacing="0" style="width: 20%;">
+                    <table>
+                        <legend>Education/Experience</legend>
+                        <tr>
+                            <td>Education</td>
+                            <td>:</td>
+                            <td colspan="2"><textarea></textarea></td>
+                        </tr>
+                        <tr>
+                            <td>Experience</td>
+                            <td>:</td>
+                            <td colspan="2"><textarea></textarea></td>
+                        </tr>
+                    </table>
+                </fieldset>
+            </form>
+        </center>
+        <br>
+        <center>
+            <form>
+                <fieldset border="1" cellspacing="0" style="width: 20%;">
+                    <table>
+                        <legend>Job Details</legend>
+                        <tr>
+                            <td>Designation</td>
+                            <td>:</td>
+                            <td colspan="2"><textarea></textarea></td>
+                        </tr>
+                        <tr>
+                            <td>Job Location</td>
+                            <td>:</td>
+                            <td colspan="2">
+                                <select>
+                                    <option>Rajkot</option>
+                                    <option>Ahmedabad</option>
+                                    <option>Vadodara</option>
+                                    <option>Gandhinagar</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Salary</td>
+                            <td>:</td>
+                            <td colspan="2"><input type="text"></td>
+                        </tr>
+                    </table>
+                </fieldset>
+            </form>
+        </center>
+        <br>
+        <center>
+            <form>
+                <table>
+                    <tr>
+                        <td colspan="2"><input type="submit" value="Submit"></td>
+                        <td colspan="2"><input type="reset" value="Reset"></td>
+                    </tr>
+                </table>
+            </form>
+        </center>
+    </body>
+</html>
