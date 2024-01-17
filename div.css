@@ -1,0 +1,60 @@
+#div1{
+    background-color: rgb(112, 143, 153);
+    float: left;
+    width: 50%;
+    padding: 10px;
+    color: black;
+}
+#div2{
+    background-color: blueviolet;
+    float: left;
+    width: 99%;
+    color: aliceblue;
+}
+#div3{
+    background-color: rgb(230, 197, 13);
+    float: left;
+    width: 99%;
+    height: 100%;
+    color: black;
+}
+#div4{
+    background-color: black;
+    float: left;
+    width: 70%;
+    color: aliceblue;
+    margin-left: 5px;
+    margin-bottom: 15px;
+}
+#div5{
+    background-color: black;
+    float: right;
+    width: 20%;
+    height: 90px;
+    color: aliceblue;
+    margin-left: 3%;
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+#div6{
+    background-color: black;
+    float: left;
+    width: 70%;
+    color: aliceblue;
+    margin-left: 5px;
+    margin-bottom: 15px;
+}
+#div7{
+    background-color: black;
+    float: left;
+    width: 70%;
+    color: aliceblue;
+    margin-left: 5px;
+    margin-bottom: 15px;
+}
+#div8{
+    background-color: blue;
+    width: 99%;
+    float: left;
+    color: aliceblue;
+}
