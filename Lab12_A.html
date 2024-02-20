@@ -27,6 +27,25 @@
                 border: 2px solid gray;
                 position: relative;
                 bottom: 5px;
+                animation-name: hover;
+                animation-duration: 20s;
+                animation-timing-function: linear;
+                animation-iteration-count: infinite;
+            }
+            .button:active{
+                animation-name: hover;
+                animation-duration: 20s;
+                animation-timing-function: linear;
+                animation-iteration-count: infinite;
+                background-image: linear-gradient(aqua, blue);
+            }
+            @keyframes hover{
+                from{
+                    margin-left: 0%;
+                }
+                to{
+                    margin-left: 100%;
+                }
             }
             .text:focus{
                 background-color: yellow;
